@@ -1,0 +1,52 @@
+.div{
+  text-align: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.home{
+  min-height: 70vh;
+}
+
+.prod{
+  margin: 150px 0 40px 0;
+  color: rgb(92, 17, 161);
+  text-decoration: underline;
+}
+
+.botao{
+  text-decoration: none;
+  font-size: 2rem;
+  
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px,
+  rgba(92, 17, 161, 0.4) 5px 5px, 
+  rgba(92, 17, 161, 0.3) 10px 10px, 
+  rgba(92, 17, 161, 0.2) 15px 15px, 
+  rgba(92, 17, 161, 0.1) 20px 20px, 
+  rgba(92, 17, 161, 0.05) 25px 25px;
+  padding: 10px 5% 0 ;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.botao:hover{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px,
+  rgba(92, 17, 161, 0.4) -5px 5px, 
+  rgba(92, 17, 161, 0.3) -10px 10px, 
+  rgba(92, 17, 161, 0.2) -15px 15px, 
+  rgba(92, 17, 161, 0.1) -20px 20px, 
+  rgba(92, 17, 161, 0.05) -25px 25px;
+  
+}
+
+.axios{
+  text-align: center;
+  padding-top: 30px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: rgb(97, 18, 170) -5px 5px, 
+  rgba(92, 17, 161, 0.3) -10px 10px, 
+  rgba(92, 17, 161, 0.2) -8px 8px;
+}
+

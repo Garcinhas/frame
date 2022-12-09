@@ -1,0 +1,60 @@
+.div{
+    text-align: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.home{
+  min-height: 70vh;
+}
+
+
+.prod{
+    margin: 150px 0 40px 0;
+    color: rgb(92, 17, 161);
+    text-decoration: underline;
+}
+.axios{
+    text-align: center;
+    padding-top: 30px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: rgb(97, 18, 170) -5px 5px, 
+    rgba(92, 17, 161, 0.3) -10px 10px, 
+    rgba(92, 17, 161, 0.2) -8px 8px;
+}
+
+.products{
+  display: inline-flex;
+  width: 15%;
+  box-shadow: 
+  rgba(92, 17, 161, 0.25) 0px 13px 27px -5px, 
+  rgba(92, 17, 161, 0.3) 0px 8px 16px -8px;
+  background-color: white;
+  transition: all 0.5s ease;
+  border-radius: 10px;
+  margin: 30px 9px 30px 9px;
+  height: 230px;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.products:hover{
+  padding: 17px ;
+  margin: 32px;
+  box-shadow: rgba(92, 17, 161, 0.1) 0px 4px 16px, 
+  rgba(92, 17, 161, 0.1) 0px 8px 24px, 
+  rgba(92, 17, 161, 0.1) 0px 16px 56px;
+}
+
+.products p{
+  text-decoration: none;
+  width: 50%;
+  margin: auto;
+}
+.products img{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
